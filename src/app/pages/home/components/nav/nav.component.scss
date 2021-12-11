@@ -1,0 +1,14 @@
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    img {
+        width: 90px;
+    }
+    a {
+        color: #e5e5e5;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}

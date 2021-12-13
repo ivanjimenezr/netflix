@@ -1,6 +1,6 @@
 export interface NetflixModel {
     nav: Nav;
-    hero: Hero;
+    // hero: Hero;
     films: Films;
 }
 
@@ -10,7 +10,7 @@ export interface Nav {
 
 export interface Hero {
     title:string;
-    imageGallery: Img[];
+    texto: string;
 }
 
 export interface Films {

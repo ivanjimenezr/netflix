@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Hero } from '../../models/netflix.model';
+// import { Hero } from '../../models/netflix.model';
 
 @Component({
   selector: 'app-hero',
@@ -7,7 +7,7 @@ import { Hero } from '../../models/netflix.model';
   styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent implements OnInit {
-  @Input() public hero!: Hero
+  // @Input() public hero!: Hero
   constructor() { }
 
   ngOnInit(): void {

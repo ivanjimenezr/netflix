@@ -1,1 +1,9 @@
-<p>films works!</p>
+<div class="films-container">
+    <h1>{{films.title}}</h1>
+    <div class="images">
+    <ng-container  *ngFor="let imagen of films.imageGallery">
+        <img src="{{imagen.src}}" alt="{{imagen.alt}}">
+    </ng-container>
+</div>
+
+</div>

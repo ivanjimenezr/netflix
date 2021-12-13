@@ -1,5 +1,5 @@
-import { NetflixModel, Nav,Films } from './models/netflix.model';
-import { Component, OnInit,Input } from '@angular/core';
+import { NetflixModel, Nav,Films, Social, LinksSocial } from './models/netflix.model';
+import { Component, OnInit,Input,  } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +13,27 @@ export class HomeComponent implements OnInit {
   public scifiFilms!:Films;
   public dramaFilms!:Films;
   public comediaFilms!:Films;
+  public social!:Social[];
+  public linksSocial!: LinksSocial;
   constructor() {
+    this.social = [
+      {
+        icoSocial:'https://svgsilh.com/svg/667456-ffffff.svg',
+        linkSocial:'https://www.facebook.com'
+      },
+      {
+        icoSocial:'https://svgsilh.com/svg/1562139-ffffff.svg',
+        linkSocial:'https://www.instagram.com'
+      },
+      {
+        icoSocial:'https://svgsilh.com/svg/38671-ffffff.svg',
+        linkSocial:'https://www.twitter.com'
+      },
+      {
+        icoSocial:'https://svgsilh.com/svg/1834016-ffffff.svg',
+        linkSocial:'https://www.youtube.com'
+      }
+  ],
     this.netflixModel = {
       nav: {
         logo: {

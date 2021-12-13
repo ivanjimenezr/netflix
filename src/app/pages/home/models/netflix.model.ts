@@ -21,3 +21,13 @@ export interface Img {
     src:string;
     alt:string;
 }
+
+export interface Social {
+    icoSocial:string,
+    linkSocial:string
+}
+
+export interface LinksSocial {
+    link:string,
+    url:string
+}
